@@ -44,7 +44,7 @@ iframe{
   padding: 14px 46px;
   transition: 0.3s;
   font-size: 18px;
-  font-family: Aldrich;
+  font-family: monospace;
   z-index: 4000;
 }
 
