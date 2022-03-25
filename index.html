@@ -11,40 +11,39 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
 </head>
 <body>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'home')">Home</button>
+  <button class="tablinks" onclick="openTab(event, 'browser')">Browser</button>
+  <button class="tablinks" onclick="openTab(event, 'games')">Games</button>
+  <button class="tablinks" onclick="openTab(event, 'utilities')">Utilities</button>
+</div>
 
-<h3>GoGuardian BypassLyfe</h3>
-      <style>
-        h3{text-align: center;}
-        h3{font-size: 30px;}
-    </style>
+<div id="home" class="tabcontent">
+  <h3>GoGuardian BypassLyfe</h3>
 
 <div class="tab">
-  <browser class="tablinks" onclick="openTab(event, 'web')">Browser</browser>
+  <browser class="tablinks" onclick="openTab(event, 'browser')">Browser</browser>
   <games class="tablinks" onclick="openTab(event, 'games')">Games</games>
   <utilities class="tablinks" onclick="openTab(event, 'utilities')">Utilities</utilities>
 </div>
   
-<div id="web" class="tabcontent">
+  </div>
+ 
+<div id="browser" class="tabcontent">
   <h3>Browser</h3>
-  <p>Make iFrame Here</p>
-  <iframe class="pageframe" src="https://bing.com" style="position:fixed;top: 0%;
-  left:0%;width: 100vw;height: 100vh;z-index: 10000;border: 0px solid black"></iframe>
+  <iframe src="https://bing.com"></iframe>
 </div>
-    <style>
-        p{text-align: center;}
-    </style>
 
 <div id="games" class="tabcontent">
   <h3>Games</h3>
-  <p>Make JS games here</p> 
 </div>
-
-<div id="utilities" class="tabcontent">
+  
+ <div id="utilities" class="tabcontent">
   <h3>Utilities</h3>
-  <p>Put random stuff here</p>
+
 </div>
    
 </body>

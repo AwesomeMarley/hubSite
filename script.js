@@ -22,6 +22,10 @@ document.body.append(example_element);
 // utilites_tab.textContent = 'Utilities';
 // document.body.append(utilites_tab);
 
+
+
+document.getElementById('home').style.display = "block";
+
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
