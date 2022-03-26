@@ -5,10 +5,11 @@ background: radial-gradient(circle, rgba(226,217,211,1) 0%, rgba(255,255,255,1) 
 
 h3 {
   position: absolute;
+  
   top: 5%;
   text-decoration: underline;
   text-align: center;
-  font-size: 40px;
+  font-size: 0px;
 background: #0011FF;
 background: -webkit-linear-gradient(to right, #0011FF 0%, #4589FF 23%, #198CFF 51%, #0FC7FF 76%, #0AFFE7 100%);
 background: -moz-linear-gradient(to right, #0011FF 0%, #4589FF 23%, #198CFF 51%, #0FC7FF 76%, #0AFFE7 100%);
@@ -21,11 +22,12 @@ background: linear-gradient(to right, #0011FF 0%, #4589FF 23%, #198CFF 51%, #0FC
   
 iframe{
   position: fixed;
-  top: 6%;
+  top: 50px;
+  border: 0px;
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index = 2000;
+  z-index = 1000;
   border-radius: 2px;
 }
 
@@ -44,6 +46,7 @@ iframe{
   padding: 14px 46px;
   transition: 0.3s;
   font-size: 18px;
+  background-color: #fffff;
   font-family: monospace;
   z-index: 4000;
 }
@@ -78,7 +81,7 @@ box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
   font-size: 3.5vw;
   
   position: fixed;
-  top: 25%;
+  top: 80px;
   left: 5%;
   width: 20%;
   height: 6%;
@@ -100,7 +103,7 @@ background: radial-gradient(circle, rgba(29,140,223,1) 0%, rgba(20,103,148,1) 10
   font-size: 3.5vw;
   
   position: fixed;
-  top: 25%;
+  top: 80px;
   left: 30%;
   width: 20%;
   height: 6%;
@@ -121,7 +124,7 @@ background: radial-gradient(circle, rgba(29,140,223,1) 0%, rgba(20,103,148,1) 10
   font-size: 3.5vw;
   
   position: fixed;
-  top: 25%;
+  top: 80px;
   left: 55%;
   width: 20%;
   height: 6%;
