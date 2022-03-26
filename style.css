@@ -19,10 +19,37 @@ background: linear-gradient(to right, #0011FF 0%, #4589FF 23%, #198CFF 51%, #0FC
   border-bottom: 2px solid #ccc;
   z-index: 10000;
 }
+
+input {
+  
+  position: fixed;
+  top: 62.5px;
+  left: 80px;
+  width: calc(100% - 160px);
+  height: 20px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #ccc;
+  
+  z-index: 3000;
+}
+
+#searchbutton {
+  position: fixed;
+  top: 60px;
+  right: 10px;
+  border-radius: 5px;
+  background-color: #ccc;
+  
+  z-index: 3000;
+}
+
+
   
 iframe{
   position: fixed;
-  top: 50px;
+  top: 90px;
   border: 0px;
   left: 0;
   width: 100vw;
@@ -77,14 +104,14 @@ box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
   padding-bottom: 2%;
   text-align: center;
   font-family: monospace;
-  color: #FF9912;
+  color: #fefefe;
   font-size: 3.5vw;
   
   position: fixed;
   top: 80px;
   left: 5%;
-  width: 20%;
-  height: 6%;
+  width: 25vw;
+  height: 20vh;
 background: rgb(29,140,223);
 background: radial-gradient(circle, rgba(29,140,223,1) 0%, rgba(20,103,148,1) 100%);
   border: 3px solid #1b4f5c;
@@ -99,14 +126,14 @@ background: radial-gradient(circle, rgba(29,140,223,1) 0%, rgba(20,103,148,1) 10
   padding-bottom: 2%;
   text-align: center;
   font-family: monospace;
-  color: #FF9912;
+  color: #fefefe;
   font-size: 3.5vw;
   
   position: fixed;
   top: 80px;
-  left: 30%;
-  width: 20%;
-  height: 6%;
+  left: 35%;
+  width: 25vw;
+  height: 20vh;
 background: rgb(29,140,223);
 background: radial-gradient(circle, rgba(29,140,223,1) 0%, rgba(20,103,148,1) 100%);
   border: 3px solid #1b4f5c;
@@ -120,14 +147,14 @@ background: radial-gradient(circle, rgba(29,140,223,1) 0%, rgba(20,103,148,1) 10
   padding-bottom: 2%;
   text-align: center;
   font-family: monospace;
-  color: #FF9912;
+  color: #fefefe;
   font-size: 3.5vw;
   
   position: fixed;
   top: 80px;
-  left: 55%;
-  width: 20%;
-  height: 6%;
+  left: 65%;
+  width: 25vw;
+  height: 20vh;
 background: rgb(29,140,223);
 background: radial-gradient(circle, rgba(29,140,223,1) 0%, rgba(20,103,148,1) 100%);
   border: 3px solid #1b4f5c;

@@ -39,3 +39,9 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+function searchFunction() {
+  var searchURL = document.getElementById("searchbar").value;
+  //alert(searchURL);
+  document.getElementById("mainframe").src = "https://unblo.cc/wgnx/https://"+searchURL+"/"
+}
