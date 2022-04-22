@@ -43,5 +43,5 @@ function openTab(evt, tabName) {
 function searchFunction() {
   var searchURL = document.getElementById("searchbar").value;
   //alert(searchURL);
-  document.getElementById("mainframe").src = "https://unblo.cc/wgnx/https://"+searchURL+"/"
+  document.getElementById("mainframe").src = "https://"+searchURL+"/"
 }
